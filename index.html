@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/x-icon" href="assets/sushi-logo.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SushiMan</title>
+</head>
+<body>
+
+  <header>
+    <nav class="header_nav">
+      <div class="header_logo">
+        <h4>The New Suchi</h4>
+        <div class="header_logo-overlay"></div>
+      </div>
+
+      <ul class="header_menu">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><img src="assets/search.svg" alt="search"></li>
+      </ul>
+
+      <ul class="header_menu-mobile">
+        <li>
+          <img src="assets/menu.svg" alt="menu">
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <section class="hero">
+      <div class="hero-image">
+        <img src="assets/sushi-1.png" alt="sushi">
+        <h2>
+          日 <br />
+          本 <br />
+          食
+        </h2>
+        <div class="hero-image_overlay">
+
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info">
+          <h1>Feel the taste of Japanese food</h1>
+          <p>Feel the taste of the most popular Japanses food</p>
+          <div class="hero-content_buttons">
+            <button class="hero-content_order-buttons">Order Now</button>
+            <button class="hero-content_play-buttons">
+              <img src="assets/play-circle.svg" alt="play"> How To Order
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content_testimontial">
+          <div class="hero-content_customer flex-center">
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="hero-content_review">
+            <img src="assets/user.png" alt="user">
+            <p>This is the best Japanese food service that ever exisited</p>
+          </div>
+        </div>
+        
+      </div>
+
+      
+
+  </section>
+
+  <section class="about-us" id="about-us">
+    <div class="about-us_image">
+
+
+      <div class="about-us_image-sushi3">
+        <img src="assets/sushi-3.png" alt="sushi">
+      </div>
+
+      <button class="about-us_button">
+        Learn More 
+        <img src="assets/arrow-up-right.svg" alt="learn more">
+      </button>
+
+      <div class="about-us_image-sushi2">
+        <img src="assets/sushi-2.png" alt="sushi">
+      </div>
+    </div>
+
+
+
+    <div class="about-us_content">
+        <p class="sushi_subtitle">About Us  / 私たちについて</p>
+        <h3 class="sushi_title">Our mission is to bring true Japanese flavours to you</h3>
+        <p class="sushi_description"> We will contiune to provide the experience of Omotenashi,
+          the Japanese minset of hositality, with our shopping and dining for our customers.
+        </p>
+    </div>
+  </section>
+
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods_title">Popular Food / 大衆食</h2>
+    <div class="popular-foods_filters sushi_hide-scrollbar">
+      <button class="popular-foods_filter-btn active">ALL</button>
+      <button class="popular-foods_filter-btn">
+        <img src="assets/sushi-9.png" alt="sushi 9">
+        Sushi
+      </button>
+      <button class="popular-foods_filter-btn">
+        <img src="assets/sushi-8.png" alt="sushi 8">
+        Ramen
+      </button>
+      <button class="popular-foods_filter-btn">
+        <img src="assets/sushi-7.png" alt="sushi 7">
+        Udon
+      </button>
+      <button class="popular-foods_filter-btn">
+        <img src="assets/sushi-6.png" alt="sushi 6">
+        Udon
+      </button>
+      <button class="popular-foods_filter-btn">Other</button>
+    </div>
+
+    <div class="popular-foods_catalogue">
+      <article class="popular-foods_card">
+        <img class="popular-foods_card-image" src="assets/sushi-11.png" alt="sushi-11">
+        <h4 class="popular-foods_card-title">Orginal Sushi</h4>
+
+        <div class="popular-foods_card-details flex-between">
+          <div class="popular-foods_card-rating">
+            <img src="assets/star.svg" alt="star">
+            <p>5.0</p>
+          </div>
+          <p class="popular-foods_card-price">$17.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods_card active-card">
+        <img class="popular-foods_card-image" src="assets/sushi-12.png" alt="sushi-12">
+        <h4 class="popular-foods_card-title">Chezu Sushi</h4>
+
+        <div class="popular-foods_card-details flex-between">
+          <div class="popular-foods_card-rating">
+            <img src="assets/star.svg" alt="star">
+            <p>4.9</p>
+          </div>
+          <p class="popular-foods_card-price">$21.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods_card">
+        <img class="popular-foods_card-image" src="assets/sushi-10.png" alt="sushi-10">
+        <h4 class="popular-foods_card-title">Ramen Legendo</h4>
+
+        <div class="popular-foods_card-details flex-between">
+          <div class="popular-foods_card-rating">
+            <img src="assets/star.svg" alt="star">
+            <p>4.9</p>
+          </div>
+          <p class="popular-foods_card-price">$21.00</p>
+        </div>
+      </article>
+    </div>
+
+    <button class="popular-foods_button">
+      Explore Foods
+      <img src="assets/arrow-right.svg" alt="arrow-right">
+    </button>
+  </section>
+  
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
